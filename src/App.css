@@ -1,12 +1,68 @@
 .App {
   text-align: center;
+  background-color: #ffffff;
+  position: relative; 
+  width: 1440px;
+  height: 1158px;
+
 }
 
-.App-logo {
-  height: 40vmin;
+a {
+  text-decoration: none;
+  width: 101px;
+  height: 28px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 18px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #101828;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+a:hover{
+  color: #985d6a;
+}
+
+.profile_img {
+  height: 88px;
+  width: 88px;
+  background-image: url(profile.jpeg);
+  border-radius: 275px;
   pointer-events: none;
+  margin-left: 676px;
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
 }
-
+.twitter {
+  width: 1152px;
+  height: 30px;
+  font-family: 'Inter';
+  margin-left: 144px;
+  margin-bottom: 50px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #101828;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -28,6 +84,80 @@
   color: #61dafb;
 }
 
+.Twitter-link, .books, .book_python, .pitch, .book_design, .btn_zuri {
+  box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px 32px;
+gap: 8px;
+margin-right: 144px;
+margin-left: 144px;
+width: 1152px;
+height: 76px;
+background: #EAECF0;
+
+border: 1px solid #EAECF0;
+border-radius: 8px;
+
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+.Social{
+margin-top: 80px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.slack_icon{background-image: url(slack.png);
+
+}
+.git_icon{
+  background-image: url(git.png);
+  margin-left: 36.75px;
+  left: 0%;
+right: 0%;
+top: 0%;
+bottom: 2.31%;
+}
+.footnote{
+  width: 832.28px;
+height: 24px;
+font-family: 'Inter';
+font-style: normal;
+margin-left: 331.59px;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #667085;
+flex: none;
+order: 1;
+flex-grow: 1;
+}
+.footer{
+align-items: center;
+background: #FFFFFF;
+}
+.zuri{
+  left: 0.72%;
+right: 0.64%;
+top: 21.82%;
+bottom: 0.88%;
+margin-left: 113.36px;
+
+background:url(zuri.png);
+}
+.I4G{
+ margin-right: 112px;
+background: url(I4G.png);
+flex: none;
+order: 2;
+flex-grow: 0;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
